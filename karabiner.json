@@ -604,6 +604,33 @@
                         ]
                     },
                     {
+                        "description": "Hyper+w for mission control",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "w",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command",
+                                            "left_shift",
+                                            "left_control",
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "control+4 Dollar Sign",
                         "manipulators": [
                             {
